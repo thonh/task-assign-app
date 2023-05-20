@@ -1,4 +1,4 @@
-FROM 138373232063.dkr.ecr.ap-southeast-1.amazonaws.com/php-7.4-fpm:123
+FROM php:7.4-fpm
 
 RUN docker-php-ext-install pdo pdo_mysql
 
