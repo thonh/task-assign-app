@@ -9,7 +9,7 @@ services:
     depends_on:
       - php-fpm
   php-fpm:
-    container_name: server-web
+    container_name: task-assign-app_php-fpm.prod
     image: 666402361323.dkr.ecr.ap-southeast-1.amazonaws.com/php-fpm:latest
     networks:
       - web-net
