@@ -8,7 +8,7 @@ COPY ./storage /var/www/storage
 
 # Note: This is environment variable in the build process
 
-ENV NGINX_HOST=server-web
+ENV NGINX_HOST=task-assign-app_php-fpm.prod
 ENV NGINX_PORT=80
 
 RUN sh /etc/nginx/helper/gen_nginx.sh
